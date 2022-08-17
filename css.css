@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    font-family: 'Roboto', serif;
+    font-weight: 16px;
+    background-color: #e5e5e5;
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.plane_1 {
+    margin-left: 10px;
+    position: absolute;
+    padding-top: 50px;
+
+}
+@media (max-width: 850px){
+    .plane_1 {
+        position: relative;
+        margin-left: 200px;
+    }
+}
+.plane {
+    transition: 1s;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+
+.head {
+    margin-left: 120px;
+    color: rgb(83, 81, 81);
+}
+
+.head2 {
+    margin-left: 200px;
+}
+a {
+    text-decoration: none;
+    color: rgb(112, 134, 131);
+    cursor: pointer;
+}
+
+
+.nw {
+    border-radius: 50px;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(136, 240, 205);
+    background: rgb(136, 240, 205);
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.bl {
+    border-radius: 50px;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(245, 219, 133);
+    background: rgb(245, 219, 133);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.imgnw {
+    transition: 1s;
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .35);
+    margin-left: 150px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.imgcd {
+    transition: 1s;
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .35);
+    margin-left: 150px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+
+a :hover {
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .5);
+}
+
+
+
+.cd {
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(125, 234, 238);
+    background: rgb(125, 234, 238);
+    margin-bottom: 20px;
+}
